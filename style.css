@@ -1,0 +1,43 @@
+.image-container {
+    user-select: text;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.image-container .content {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: justify;
+}
+
+.image-container img {
+    max-width: 512px;
+    max-height: auto;
+}
+
+.image-description {
+    max-width: 512px;
+}
+
+.image-description ul {
+    list-style: none;
+    padding: 0;
+}
+
+#close-image {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 10px 12px;
+}
